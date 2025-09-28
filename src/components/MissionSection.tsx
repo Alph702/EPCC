@@ -22,45 +22,45 @@ export function MissionSection({ language }: MissionSectionProps) {
   const translations = {
     'English': {
       'Our Mission & Values': 'Our Mission & Values',
-      'At Ehsan Panhwer Coaching Center, we are committed to providing quality education that empowers students to become responsible citizens and lifelong learners.': 'At Ehsan Panhwer Coaching Center, we are committed to providing quality education that empowers students to become responsible citizens and lifelong learners.',
-      'To nurture young minds with knowledge, wisdom, and moral values, preparing them to face future challenges with confidence and integrity.': 'To nurture young minds with knowledge, wisdom, and moral values, preparing them to face future challenges with confidence and integrity.',
+      'Institution Overview': 'EPCC Mirpurkhas, also known as Education Polytechnic Community College Mirpurkhas, is a community college and polytechnic institute. Our primary tagline is: \'Earn without limits, succeed without hesitation!\'',
+      'Mission Statement': 'Education For All',
       'School Leadership Team': 'School Leadership Team',
-      'Excellence': 'Excellence',
-      'Striving for the highest standards in education and character development.': 'Striving for the highest standards in education and character development.',
-      'Compassion': 'Compassion',
-      'Fostering empathy, kindness, and understanding in our learning community.': 'Fostering empathy, kindness, and understanding in our learning community.',
-      'Innovation': 'Innovation',
-      'Embracing creative thinking and modern approaches to learning.': 'Embracing creative thinking and modern approaches to learning.',
-      'Achievement': 'Achievement',
-      'Celebrating success and encouraging continuous growth and improvement.': 'Celebrating success and encouraging continuous growth and improvement.',
+      'Accessibility': 'Accessibility',
+      'Education available to all community members.': 'Education available to all community members.',
+      'Practical Focus': 'Practical Focus',
+      'Emphasis on employable skills.': 'Emphasis on employable skills.',
+      'Success Orientation': 'Success Orientation',
+      'Confidence building.': 'Confidence building.',
+      'Community Service': 'Community Service',
+      'Local education provider for Mirpurkhas region.': 'Local education provider for Mirpurkhas region.',
     },
     'Sindhi': {
       'Our Mission & Values': 'اسان جو مشن ۽ قدر',
-      'At Ehsan Panhwer Coaching Center, we are committed to providing quality education that empowers students to become responsible citizens and lifelong learners.': 'احسان پنهور ڪوچنگ سينٽر ۾، اسان معياري تعليم فراهم ڪرڻ لاءِ پرعزم آهيون جيڪا شاگردن کي ذميوار شهري ۽ تاحيات سکيا ڏيندڙ بڻائي ٿي.',
-      'To nurture young minds with knowledge, wisdom, and moral values, preparing them to face future challenges with confidence and integrity.': 'نوجوان ذهنن کي علم، حڪمت ۽ اخلاقي قدرن سان پالڻ، انهن کي مستقبل جي چئلينجن کي اعتماد ۽ سالميت سان منهن ڏيڻ لاءِ تيار ڪرڻ.',
+      'Institution Overview': 'اي پي سي سي ميرپورخاص، جنهن کي ايجوڪيشن پولي ٽيڪنڪ ڪميونٽي ڪاليج ميرپورخاص پڻ چيو وڃي ٿو، هڪ ڪميونٽي ڪاليج ۽ پولي ٽيڪنڪ ادارو آهي. اسان جو بنيادي نعرو آهي: \'حد کان سواءِ ڪمايو، بغير ڪنهن هٻڪ جي ڪامياب ٿيو!\'',
+      'Mission Statement': 'سڀني لاءِ تعليم',
       'School Leadership Team': 'اسڪول قيادت ٽيم',
-      'Excellence': 'بهترين',
-      'Striving for the highest standards in education and character development.': 'تعليم ۽ ڪردار جي ترقي ۾ اعليٰ معيار لاءِ ڪوشش ڪرڻ.',
-      'Compassion': 'همدردي',
-      'Fostering empathy, kindness, and understanding in our learning community.': 'اسان جي سکيا واري ڪميونٽي ۾ همدردي، احسان، ۽ سمجھ کي وڌائڻ.',
-      'Innovation': 'جدت',
-      'Embracing creative thinking and modern approaches to learning.': 'تخليقي سوچ ۽ سکيا لاءِ جديد طريقن کي اپنائڻ.',
-      'Achievement': 'ڪاميابي',
-      'Celebrating success and encouraging continuous growth and improvement.': 'ڪاميابي جو جشن ملهائڻ ۽ مسلسل ترقي ۽ بهتري جي حوصلا افزائي ڪرڻ.',
+      'Accessibility': 'پهچ',
+      'Education available to all community members.': 'سڀني برادري جي ميمبرن لاءِ تعليم موجود آهي.',
+      'Practical Focus': 'عملي توجهه',
+      'Emphasis on employable skills.': 'ملازمت جي قابل صلاحيتن تي زور.',
+      'Success Orientation': 'ڪاميابي جي رخ',
+      'Confidence building.': 'اعتماد پيدا ڪرڻ.',
+      'Community Service': 'برادري جي خدمت',
+      'Local education provider for Mirpurkhas region.': 'ميرپورخاص علائقي لاءِ مقامي تعليم فراهم ڪندڙ.',
     },
     'Urdu': {
       'Our Mission & Values': 'ہمارا مشن اور اقدار',
-      'At Ehsan Panhwer Coaching Center, we are committed to providing quality education that empowers students to become responsible citizens and lifelong learners.': 'احسان پنہوور کوچنگ سینٹر میں، ہم معیاری تعلیم فراہم کرنے کے لیے پرعزم ہیں جو طلباء کو ذمہ دار شہری اور تاحیات سیکھنے والے بننے کے لیے بااختیar بناتی ہے۔',
-      'To nurture young minds with knowledge, wisdom, and moral values, preparing them to face future challenges with confidence and integrity.': 'نوجوان ذہنوں کو علم، حکمت اور اخلاقی اقدار سے پروان چڑھانا، انہیں مستقبل کے چیلنجوں کا اعتماد اور دیانتداری سے مقابلہ کرنے کے لیے تیار کرنا۔',
+      'Institution Overview': 'ای پی سی سی میرپورخاص، جسے ایجوکیشن پولی ٹیکنک کمیونٹی کالج میرپورخاص بھی کہا جاتا ہے، ایک کمیونٹی کالج اور پولی ٹیکنک ادارہ ہے۔ ہمارا بنیادی نعرہ ہے: \'حدود کے بغیر کمائیں، بلا جھجھک کامیاب ہوں!\'',
+      'Mission Statement': 'سب کے لیے تعلیم',
       'School Leadership Team': 'اسکول کی قیادت کی ٹیم',
-      'Excellence': 'فضیلت',
-      'Striving for the highest standards in education and character development.': 'تعلیم اور کردار کی نشوونما میں اعلیٰ ترین معیارات کے لیے کوشاں۔',
-      'Compassion': 'ہمدردی',
-      'Fostering empathy, kindness, and understanding in our learning community.': 'ہماری سیکھنے والی برادری میں ہمدردی، مہربانی اور افہام و تفہیم کو فروغ دینا۔',
-      'Innovation': 'جدت',
-      'Embracing creative thinking and modern approaches to learning.': 'تخلیقی سوچ اور سیکھنے کے جدید طریقوں کو اپنانا۔',
-      'Achievement': 'کامیابی',
-      'Celebrating success and encouraging continuous growth and improvement.': 'کامیابی کا جشن منانا اور مسلسل ترقی اور بہتری کی حوصلہ افزائی کرنا۔',
+      'Accessibility': 'رسائی',
+      'Education available to all community members.': 'تمام کمیونٹی ممبران کے لیے تعلیم دستیاب ہے۔',
+      'Practical Focus': 'عملی توجہ',
+      'Emphasis on employable skills.': 'قابل ملازمت مہارتوں پر زور۔',
+      'Success Orientation': 'کامیابی کی سمت',
+      'Confidence building.': 'اعتماد پیدا کرنا۔',
+      'Community Service': 'کمیونٹی سروس',
+      'Local education provider for Mirpurkhas region.': 'میرپورخاص علاقے کے لیے مقامی تعلیمی فراہم کنندہ۔',
     },
   };
 
@@ -69,23 +69,23 @@ export function MissionSection({ language }: MissionSectionProps) {
   const values = [
     {
       icon: Target,
-      title: t.Excellence,
-      description: t['Striving for the highest standards in education and character development.']
+      title: t.Accessibility,
+      description: t['Education available to all community members.']
     },
     {
       icon: Heart,
-      title: t.Compassion,
-      description: t['Fostering empathy, kindness, and understanding in our learning community.']
+      title: t['Practical Focus'],
+      description: t['Emphasis on employable skills.']
     },
     {
       icon: Lightbulb,
-      title: t.Innovation,
-      description: t['Embracing creative thinking and modern approaches to learning.']
+      title: t['Success Orientation'],
+      description: t['Confidence building.']
     },
     {
       icon: Award,
-      title: t.Achievement,
-      description: t['Celebrating success and encouraging continuous growth and improvement.']
+      title: t['Community Service'],
+      description: t['Local education provider for Mirpurkhas region.']
     }
   ];
 
@@ -129,7 +129,7 @@ export function MissionSection({ language }: MissionSectionProps) {
               {t['Our Mission & Values']}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t['At Shah Abdul Latif Higher Secondary School, we are committed to providing quality education that empowers students to become responsible citizens and lifelong learners.']}
+              {t['Institution Overview']}
             </p>
           </motion.div>
         </div>
@@ -160,7 +160,7 @@ export function MissionSection({ language }: MissionSectionProps) {
                 viewport={{ once: true }}
                 className="text-xl lg:text-2xl font-medium text-foreground leading-relaxed"
               >
-                "{t['To nurture young minds with knowledge, wisdom, and moral values, preparing them to face future challenges with confidence and integrity.']}"
+                "{t['Mission Statement']}"
               </motion.blockquote>
               <motion.cite 
                 initial={{ opacity: 0, y: 20 }}

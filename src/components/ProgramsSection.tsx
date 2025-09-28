@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Button } from './ui/button';
-import { BookOpen, Calculator, Globe, Palette, Microscope, Computer } from 'lucide-react';
+import { Laptop, Wrench, Hammer, Users } from 'lucide-react';
 import { ImageWithFallback } from './functions/ImageWithFallback';
 import bio from '../assets/bio.jpg';
 import cs from '../assets/cs.jpg';
@@ -222,58 +222,44 @@ export function ProgramsSection({ language }: ProgramsSectionProps) {
 
   const programs = [
     {
-      id: 'Computer-Science',
-      icon: Computer,
-      title: t['Computer Science'],
-      description: t['Modern technology skills and computer literacy for the digital age.'],
-      subjects: [t['Computer Science'], t['Digital Literacy'], t['IT Skills']],
-      color: "from-accent/20 to-primary/20",
-      image: cs
+      icon: Laptop,
+      title: t['Computer Courses'],
+      description: t['Comprehensive courses in programming, software development, and IT skills.'],
+      link: '#',
+      linkText: t['Learn More'],
+      image: cs,
+      subjects: [],
+      color: 'from-blue-500/20 to-blue-500/5',
     },
     {
-      id: 'Science',
-      icon: Microscope,
-      title: t['Science'],
-      description: t['Explore the wonders of science, including biology, chemistry, and physics.'],
-      subjects: [t['Biology'], t['Chemistry'], t['Physics']],
-      color: "from-primary/20 to-secondary/20",
-      image: bio
+      icon: Wrench,
+      title: t['Technical Education'],
+      description: t['Hands-on training in various technical trades and engineering disciplines.'],
+      link: '#',
+      linkText: t['Learn More'],
+      image: math,
+      subjects: [],
+      color: 'from-green-500/20 to-green-500/5',
     },
     {
-      id: 'Math',
-      icon: Calculator,
-      title: t['Math'],
-      description: t['Develop mathematical skills and problem-solving abilities.'],
-      subjects: [t['Algebra'], t['Geometry'], t['Arithmetic']],
-      color: "from-secondary/20 to-accent/20",
-      image: math
+      icon: Hammer,
+      title: t['Vocational Training'],
+      description: t['Skill-based programs for immediate employment in high-demand industries.'],
+      link: '#',
+      linkText: t['Learn More'],
+      image: bio,
+      subjects: [],
+      color: 'from-yellow-500/20 to-yellow-500/5',
     },
     {
-      id: 'English',
-      icon: BookOpen,
-      title: t['English'],
-      description: t['Master the English language through literature and communication.'],
-      subjects: [t['Grammar'], t['Literature'], t['Writing']],
-      color: "from-accent/20 to-secondary/20",
-      image: english
-    },
-    {
-      id: 'SST',
-      icon: Globe,
-      title: t['SST'],
-      description: t['Study Social Studies including history, geography, and civics.'],
-      subjects: [t['History'], t['Geography'], t['Civics']],
-      color: "from-primary/20 to-accent/20",
-      image: sst
-    },
-    {
-      id: 'Languages-&-Islamic-Studies',
-      icon: BookOpen,
-      title: t['Languages & Islamic Studies'],
-      description: t['Comprehensive program for Urdu, Sindhi, and Islamic studies.'],
-      subjects: [t['Urdu'], t['Sindhi'], t['Islamiat']],
-      color: "from-primary/20 to-secondary/20",
-      image: urdu
+      icon: Users,
+      title: t['Community Education'],
+      description: t['Workshops and courses designed for personal enrichment and community development.'],
+      link: '#',
+      linkText: t['Learn More'],
+      image: english,
+      subjects: [],
+      color: 'from-purple-500/20 to-purple-500/5',
     },
   ];
 

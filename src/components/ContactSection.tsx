@@ -14,9 +14,9 @@ export function ContactSection({ language }: ContactSectionProps) {
   const translations = {
     'English': {
       'Get In Touch': 'Get In Touch',
-      'Have questions about our programs or admissions? We\'d love to hear from you. Reach out to us and let\'s start a conversation about your child\'s future.': 'Have questions about our programs or admissions? We\'d love to hear from you. Reach out to us and let\'s start a conversation about your child\'s future.',
+      'Have questions about our programs or admissions? We\'d love to hear from you. Reach out to us and let\'s start a conversation about your child\'s future.': 'Have questions about our programs or admissions? We\'d love to hear from you. Reach out to us and let\'s start a conversation about your future.',
       'Contact Information': 'Contact Information',
-      'Feel free to reach out to us through any of these channels. Our staff is ready to assist you with any questions you may have.': 'Feel free to reach out to us through any of these channels. Our staff is ready to assist you with any questions you may have.',
+      'Feel free to reach out to us through any of these channels. Our staff is ready to assist you with any questions you may have.': 'Feel free to reach out to us through any of these channels. Our dedicated staff is ready to assist you with any questions you may have.',
       'Address': 'Address',
       'Phone': 'Phone',
       'Email': 'Email',
@@ -31,9 +31,9 @@ export function ContactSection({ language }: ContactSectionProps) {
     },
     'Sindhi': {
       'Get In Touch': 'رابطو ڪريو',
-      'Have questions about our programs or admissions? We\'d love to hear from you. Reach out to us and let\'s start a conversation about your child\'s future.': 'ڇا توھان وٽ اسان جي پروگرامن يا داخلائن بابت سوال آھن؟ اسان کي توھان کان ٻڌي خوشي ٿيندي. اسان سان رابطو ڪريو ۽ اچو ته توھان جي ٻار جي مستقبل بابت گفتگو شروع ڪريون.',
+      'Have questions about our programs or admissions? We\'d love to hear from you. Reach out to us and let\'s start a conversation about your child\'s future.': 'ڇا توھان وٽ اسان جي پروگرامن يا داخلائن بابت سوال آھن؟ اسان کي توھان کان ٻڌي خوشي ٿيندي. اسان سان رابطو ڪريو ۽ اچو ته توھان جي مستقبل بابت گفتگو شروع ڪريون.',
       'Contact Information': 'رابطي جي معلومات',
-      'Feel free to reach out to us through any of these channels. Our staff is ready to assist you with any questions you may have.': 'انهن مان ڪنهن به چينل ذريعي اسان سان رابطو ڪرڻ لاءِ آزاد محسوس ڪريو. اسان جو عملو توهان جي ڪنهن به سوالن ۾ مدد ڪرڻ لاءِ تيار آهي.',
+      'Feel free to reach out to us through any of these channels. Our staff is ready to assist you with any questions you may have.': 'انهن مان ڪنهن به چينل ذريعي اسان سان رابطو ڪرڻ لاءِ آزاد محسوس ڪريو. اسان جو وقف عملو توهان جي ڪنهن به سوالن ۾ مدد ڪرڻ لاءِ تيار آهي.',
       'Address': 'پتو',
       'Phone': 'فون',
       'Email': 'ايميل',
@@ -48,9 +48,9 @@ export function ContactSection({ language }: ContactSectionProps) {
     },
     'Urdu': {
       'Get In Touch': 'رابطہ کریں',
-      'Have questions about our programs or admissions? We\'d love to hear from you. Reach out to us and let\'s start a conversation about your child\'s future.': 'کیا آپ کے پاس ہمارے پروگراموں یا داخلوں کے بارے میں سوالات ہیں؟ ہمیں آپ سے سن کر خوشی ہوگی۔ ہم سے رابطہ کریں اور آئیے آپ کے بچے کے مستقبل کے بارے میں بات چیت شروع کریں۔',
+      'Have questions about our programs or admissions? We\'d love to hear from you. Reach out to us and let\'s start a conversation about your child\'s future.': 'کیا آپ کے پاس ہمارے پروگراموں یا داخلوں کے بارے میں سوالات ہیں؟ ہمیں آپ سے سن کر خوشی ہوگی۔ ہم سے رابطہ کریں اور آئیے آپ کے مستقبل کے بارے میں بات چیت شروع کریں۔',
       'Contact Information': 'رابطے کی معلومات',
-      'Feel free to reach out to us through any of these channels. Our staff is ready to assist you with any questions you may have.': 'ان میں سے کسی بھی چینل کے ذریعے ہم سے بلا جھجھک رابطہ کریں۔ ہمارا عملہ آپ کے کسی بھی سوال میں آپ کی مدد کے لیے تیار ہے۔',
+      'Feel free to reach out to us through any of these channels. Our staff is ready to assist you with any questions you may have.': 'ان میں سے کسی بھی چینل کے ذریعے ہم سے بلا جھجھک رابطہ کریں۔ ہمارا وقف عملہ آپ کے کسی بھی سوال میں آپ کی مدد کے لیے تیار ہے۔',
       'Address': 'پتہ',
       'Phone': 'فون',
       'Email': 'ای میل',
