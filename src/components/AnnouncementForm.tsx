@@ -6,6 +6,7 @@ import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
+import { Label } from './ui/label';
 
 const iconMap = {
   BookOpen: 'BookOpen',
@@ -83,6 +84,19 @@ export function AnnouncementForm({ announcement, onSave, onCancel }: Announcemen
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
+  const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setFormData(prev => ({ ...prev, image: reader.result as string }));
+      };
+      reader.readAsDataURL(file);
+    } else {
+      setFormData(prev => ({ ...prev, image: '' })); // Clear image if no file selected
+    }
+  };
+
   const handleTranslate = async () => {
     setIsTranslating(true);
     try {
@@ -138,6 +152,15 @@ export function AnnouncementForm({ announcement, onSave, onCancel }: Announcemen
             </SelectContent>
           </Select>
         </div>
+        <div>
+          <Label htmlFor="image-upload">Image</Label>
+          <Input id="image-upload" name="image" type="file" accept="image/*" onChange={handleImageChange} />
+          {formData.image && (
+            <div className="mt-2">
+              <img src={formData.image} alt="Preview" className="max-w-full h-auto rounded-md" />
+            </div>
+          )}
+        </div>
         <div className="grid grid-cols-2 gap-4">
           <Select name="icon" value={formData.icon} onValueChange={(value) => handleSelectChange('icon', value)}>
             <SelectTrigger><SelectValue /></SelectTrigger>
@@ -147,7 +170,6 @@ export function AnnouncementForm({ announcement, onSave, onCancel }: Announcemen
               ))}
             </SelectContent>
           </Select>
-          <Input name="image" placeholder="Image URL" value={formData.image} onChange={handleChange} />
         </div>
         <div>
           <label>Tag Color</label>
